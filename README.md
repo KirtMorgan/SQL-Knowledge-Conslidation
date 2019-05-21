@@ -26,6 +26,16 @@ DDL is short name of Data Definition Language, which deals with database schemas
 
 ## What is DCL?
 
+DCL is short name of Data Control Language which includes commands such as GRANT and mostly concerned with rights, permissions and other controls of the database system.
 
+- GRANT - allow users access privileges to the database
+- REVOKE - withdraw users access privileges given by using the GRANT command
 
 ## What is TCL?
+
+TCL is short name of Transaction Control Language which deals with a transaction within a database.
+
+- COMMIT - commits a Transaction
+- ROLLBACK - rollback a transaction in case of any error occurs
+- SAVEPOINT - to rollback the transaction making points within groups
+- SET TRANSACTION - specify characteristics of the transaction
